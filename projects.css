@@ -1,0 +1,119 @@
+.projects{
+    width: 100%;
+    /* height: 300px; */
+    padding-top: 20px;
+    /* background-color: green; */
+}
+.projects_heading{
+    /* border: 1px solid red; */
+    text-align: center;
+}
+.projects_heading span{
+    color: #F3C50D;
+}
+.projects_heading h1{
+    font-size: 55px;
+}
+.work{
+    width:100%;
+    /* height: 150px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content:center;
+    padding: 20px 0px;
+}
+
+.work_pic img{
+    width: 100%;
+}
+.work_content{
+    /* border: 1px solid green; */
+    width: 600px;
+
+}
+.work_content p{
+    /* border: 1px solid green; */
+    width: 80%;
+    margin-top: 20px;
+    opacity: .7;
+}
+.work_content button{
+    padding: 10px 40px;
+    margin: 20px 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: none;
+    border: 4px solid #F3C50D;
+    border-radius: 40px;
+    background-color: transparent;
+    transition: .6s all;
+    cursor: pointer;
+}
+.work_content button:hover{
+    color: white;
+    background-color: #F3C50D;
+}
+.projects_points{
+    /* border: 1px solid red; */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 40px;
+}
+.work_content ul li{
+    list-style: none;
+    /* border: 1px solid red; */
+}
+.work_content ul li::before{
+    content: '\2022';
+    color: #F3C50D;
+    display: inline-block;
+    margin-left: -10px;
+    width: 20px;
+    font-size: 23px;
+
+}
+
+@media only screen and (max-width:956px)
+{
+    
+    .work_content p {
+        font-size: 15px;
+    }
+    .work_content ul {
+        text-align: start;
+        /* border: 1px solid red; */
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width:716px)
+{
+    .work_pic{
+        padding: 20px 0px;
+        box-sizing: border-box;
+    }
+    .work_content ul li{
+        text-align: start;
+        /* border: 1px solid red; */
+        margin-left: 0px;
+    }
+}
+@media only screen and (max-width:685px)
+{
+    .work {
+        flex-direction: column;
+        align-items: center;
+    }
+    .work_content{
+        /* background-color: red; */
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .projects_heading h1{
+        font-size: 40px;
+    }
+    
+}

@@ -1,0 +1,14 @@
+#services{
+    background-color: white;
+    /* border-bottom: 1px solid grey; */
+}
+hr{
+    width: 70%;
+    height: 3px;
+    opacity: .6;
+    background-color: grey;
+}
+.line{
+    display: flex;
+    justify-content: center;
+}

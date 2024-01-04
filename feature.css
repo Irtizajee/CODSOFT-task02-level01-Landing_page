@@ -1,0 +1,79 @@
+.feature{
+    width: 100%;
+    /* height: 150px; */
+    background-color: #EBF1F5;
+    /* background-color:white; */
+    /* border: 1px solid red; */
+    /* margin: 50px 0px; */
+    padding: 70px 0px;
+}
+.heading{
+    width: 100%;
+    /* background-color: green; */
+    text-align: center;
+}
+.heading p{
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+.heading h1{
+    font-size: 55px;
+    letter-spacing: 8px;
+}
+.feature_advertisement{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px 0px;
+}
+.feature_advertisement div{
+    /* border: 1px solid purple; */
+    width: 300px;
+    text-align: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+}
+.feature_advertisement div p{
+    font-size: 15px;
+    opacity: .7;
+
+}
+@media only screen and (max-width:955px)
+{
+    .heading h1{
+        font-size: 40px;
+    }
+    .feature_advertisement div{
+        width: 200px;
+    }
+}
+@media only screen and (max-width :770px)
+{
+    .heading h1{
+        font-size: 30px;
+    }
+    .feature_advertisement{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .feature_advertisement div{
+        width: 80%;
+        
+    }
+    .feature_advertisement div p{
+        /* text-align: start; */
+        padding: 0px 5px;
+        box-sizing: border-box;
+    }
+}
+@media only screen and (max-width:376px)
+{
+    .heading h1{
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+}
